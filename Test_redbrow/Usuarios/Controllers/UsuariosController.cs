@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Usuarios.Models;
 
@@ -16,9 +19,22 @@ namespace Usuarios.Controllers
             this.context = context;
         }
 
+        [HttpGet("Consulta")]
+        public async Task<ActionResult<IEnumerable<Usuario>>>Get()
+        {
+            return await context.Usuarios.ToListAsync();
+        }
+
+        [HttpGet("ID")]
+        public async Task<ActionResult<Usuario>> Get(int id)
+        {
+            return await context.Usuarios.Where(x=> x.id == id).FirstOrDefaultAsync();
+        }
+
         [HttpPost("Alta")]
         public async Task<ActionResult> Post(Usuario usuario)
         {
+
             context.Add(usuario);
             await context.SaveChangesAsync();
             return Ok();
