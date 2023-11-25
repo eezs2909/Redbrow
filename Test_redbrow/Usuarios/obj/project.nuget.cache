@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OuMOQOJBIM8LxNDK+FrV6IiUkZbbs+eWEt54oyBxAJk0Viu2xajhktGgoqcaTdAf6XTKyg6/MO5zPeURoJfWjg==",
+  "dgSpecHash": "L6CoS2NYtZauU7UFKhcRcUfYdyT9DMctkcyV5MAwvSwXZgGMAy88QKUPpKbqWBw1lK0YC0In34vyuFeqBgz3NQ==",
   "success": true,
   "projectFilePath": "D:\\Repositorios\\Redbrow\\Test_redbrow\\Usuarios\\Usuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
